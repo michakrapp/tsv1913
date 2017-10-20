@@ -21,6 +21,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php do_action( 'body_top' ); ?>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tsv1913' ); ?></a>
 
