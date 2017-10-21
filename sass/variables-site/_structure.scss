@@ -1,2 +1,12 @@
 $size__site-main: 100%;
 $size__site-sidebar: 25%;
+
+$size__breakpoint_tablet: 768px;
+$size__breakpoint_tablet: 1024px;
+
+$size__breakpoint_tablet_min: 769px;
+$size__breakpoint_tablet_max: 1023px;
+$size__breakpoint_desktop_min: 1024px;
+
+$tablet: "(min-width: #{$size__breakpoint_tablet_min} ) and (max-width: #{$size__breakpoint_tablet_max} )";
+$not-mobile: "(min-width : #{$size__breakpoint_tablet_min} )";
