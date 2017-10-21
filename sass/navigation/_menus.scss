@@ -76,7 +76,7 @@
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media #{$not-mobile} {
 	.menu-toggle {
 		display: none;
 	}
