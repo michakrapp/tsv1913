@@ -17,6 +17,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
+	<!-- font awesome -->
+	<script src="https://use.fontawesome.com/c9321ba998.js"></script>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -46,7 +49,9 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tsv1913' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+				<?php esc_html_e( 'Primary Menu', 'tsv1913' ); ?>
+			</button>
 			<?php
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',

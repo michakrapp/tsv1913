@@ -612,6 +612,21 @@ a {
   display: block; }
 
 /*--------------------------------------------------------------
+## Site branding
+--------------------------------------------------------------*/
+.custom-logo {
+  width: 50px; }
+
+/*--------------------------------------------------------------
+## Site navigation
+--------------------------------------------------------------*/
+.main-navigation .menu-toggle:before {
+  content: '\f0c9';
+  font-family: "fontawesome"; }
+.main-navigation.toggled .menu-toggle:before {
+  content: '\f00d'; }
+
+/*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
