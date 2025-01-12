@@ -1,11 +1,17 @@
-<!-- wp:template-part {"slug":"header"} /-->
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-	<!-- wp:paragraph -->
-	<p>News content</p>
-	<!-- /wp:paragraph -->
+
+	<!-- wp:heading {"level":1} -->
+	<h1 class="wp-block-heading">News</h1>
+	<!-- /wp:heading -->
+
+	<!-- TODO: news page post content -->
+
+    <!-- wp:template-part {"slug":"query-loop"} /-->
+
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

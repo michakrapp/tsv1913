@@ -11,3 +11,32 @@ Tags: site-editor
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
+
+/* Page Layout */
+
+.wp-site-blocks {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body.admin-bar .wp-site-blocks {
+    min-height: calc( 100vh - 32px );
+}
+.wp-site-blocks main {
+    flex-grow: 1;
+}
+
+/* Links */
+.wp-block-navigation :where(a:hover) {
+    text-decoration: underline;
+}
+
+a:visited:not(:hover):not(.wp-element-button) {
+    color: var(--wp--preset--color--contrast);
+}
+
+:root :where(.wp-block-button .wp-block-button__link):hover {
+    background-color: transparent;
+    color: var(--wp--preset--color--primary);
+    border: 1px solid var(--wp--preset--color--primary);
+}
