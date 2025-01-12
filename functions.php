@@ -46,7 +46,7 @@ if ( ! function_exists( 'tsv1913_add_default_avatar_option' ) ) {
 	/**
 	 * Add own profile image avatar option.
 	 *
-	 * @since tsv1913 1.0
+	 * @since tsv1913 1.1
 	 */
 	function tsv1913_add_default_avatar_option( $avatars ) {
 		$url = get_parent_theme_file_uri() . '/assets/images/avatar-default.png';
@@ -61,7 +61,7 @@ if ( ! function_exists( 'tsv1913_fix_default_avatar_url' ) ) {
 	/**
 	 * Fix theme default avatar url since it gets some gravatar prefix.
 	 *
-	 * @since tsv1913 1.0
+	 * @since tsv1913 1.1
 	 *
 	 * @return void
 	 */
