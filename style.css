@@ -26,6 +26,17 @@ body.admin-bar .wp-site-blocks {
     flex-grow: 1;
 }
 
+/* Styles for devices with a width of 768px or less */
+/* TODO: use wp global style: @media only screen and (max-width: calc(var(--wp--style--global--content-size))) { */
+@media only screen and (max-width: 920px) {
+    
+    main.wp-block-group > *:not(.alignfull):not(.alignleft):not(.alignright),
+    main.wp-block-group > .wp-block-post-content > *:not(.alignfull):not(.alignleft):not(.alignright) {
+        margin-left: var(--wp--preset--spacing--40) !important;
+        margin-right: var(--wp--preset--spacing--40) !important;
+    }
+}
+
 /* Links */
 .wp-block-navigation :where(a:hover) {
     text-decoration: underline;

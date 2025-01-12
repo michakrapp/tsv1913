@@ -31,8 +31,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "920px",
-			"wideSize": "1200px"
+			"contentSize": "57.5rem",
+			"wideSize": "75rem"
 		},
 		"typography": {
 			"fontFamilies": [
