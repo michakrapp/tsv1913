@@ -11,9 +11,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right">Designed von <a href="https://mkwp.de" rel="nofollow">MKWP</a></p>
+<p class="has-text-align-right">Designed von <a href="https://mkwp.de" rel="nofollow" target="_blank">MKWP</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right">mit <a href="https://wordpress.org" rel="nofollow">WordPress</a></p>
+<p class="has-text-align-right">mit <a href="https://wordpress.org" rel="nofollow" target="_blank">WordPress</a></p>
 <!-- /wp:paragraph -->
