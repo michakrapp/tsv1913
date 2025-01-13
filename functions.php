@@ -17,13 +17,13 @@ if ( ! function_exists( 'tsv1913_editor_style' ) ) {
 	/**
 	 * Enqueues editor-style.css in the editors.
 	 *
-	 * @since tsv1913 1.0
+	 * @since tsv1913 1.2
 	 */
 	function tsv1913_editor_style() {
 		add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
 	}
 }
-//add_action( 'after_setup_theme', 'tsv1913_editor_style' );
+add_action( 'after_setup_theme', 'tsv1913_editor_style' );
 
 if ( ! function_exists( 'tsv1913_enqueue_styles' ) ) {
 	/**

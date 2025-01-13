@@ -26,7 +26,7 @@ body.admin-bar .wp-site-blocks {
     flex-grow: 1;
 }
 
-/* Styles for devices with a width of 768px or less */
+/* Styles for Tablet (devices with a width of 920px or less) */
 /* TODO: use wp global style: @media only screen and (max-width: calc(var(--wp--style--global--content-size))) { */
 @media only screen and (max-width: 920px) {
     
@@ -34,6 +34,13 @@ body.admin-bar .wp-site-blocks {
     main.wp-block-group > .wp-block-post-content > *:not(.alignfull):not(.alignleft):not(.alignright) {
         margin-left: var(--wp--preset--spacing--40) !important;
         margin-right: var(--wp--preset--spacing--40) !important;
+    }
+}
+
+/* Styles for Mobile (devices with a width of 767px or less) */
+@media (max-width: 767px) {
+    .is-hidden-mobile {
+        display: none !important;
     }
 }
 
