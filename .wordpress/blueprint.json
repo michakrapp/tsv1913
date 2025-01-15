@@ -7,8 +7,7 @@
                 "url": "https://github-proxy.com/proxy/?repo=mkwpde/tsv1913&branch=master"
             },
             "options": {
-                "activate": true,
-                "importStarterContent": true
+                "activate": true
             }
         },
         {
