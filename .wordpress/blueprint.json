@@ -30,6 +30,16 @@
 				"blogname": "TSV 1913 Harreshausen",
 				"blogdescription": "Kameradschaft und Sport, bei uns ein Wort"
 			}
-		}
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "twentig"
+			},
+			"options": {
+				"activate": true
+			}
+		},
 	]
 }
