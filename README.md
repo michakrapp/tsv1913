@@ -20,6 +20,4 @@ https://playground.wordpress.net/
 mkwpde/tsv1913/refs/heads/<branch-name>/.wordpress/blueprint.json
 ```
 
-https://playground.wordpress.net/
-?blueprint-url=https://raw.githubusercontent.com/
-mkwpde/tsv1913/refs/heads/blueprint/.wordpress/blueprint.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/mkwpde/tsv1913/refs/heads/blueprint/.wordpress/blueprint.json
