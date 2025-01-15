@@ -7,8 +7,21 @@
                 "url": "https://github-proxy.com/proxy/?repo=mkwpde/tsv1913&branch=master"
             },
             "options": {
-                "activate": true
+                "activate": true,
+                "importStarterContent": true
             }
-        }
+        },
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "TSV 1913 Harreshausen",
+                "blogdescription": "Kameradschaft und Sport, bei uns ein Wort",
+                "show_on_front": "page",
+                "page_on_front": 6,
+                "page_for_posts": 2
+                "avatar_default": "TSV Avatar"
+            }
+        },
     ]
 }
+    
