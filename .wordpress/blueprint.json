@@ -1,15 +1,46 @@
 {
-    "steps": [
-        {
-            "step": "installTheme",
-            "themeData": {
-                "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=mkwpde/tsv1913&branch=master"
-            },
-            "options": {
-                "activate": true
-            }
-        }
-    ]
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "TSV 1913 Harreshausen",
+		"description": "Preview theme with WordPress playground",
+		"author": "MKWP",
+		"categories": ["Site"]
+	},
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "6.7"
+	},
+	"steps": [
+		{
+			"step": "resetData"
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://github-proxy.com/proxy/?repo=mkwpde/tsv1913&branch=blueprint"
+			},
+			"options": {
+				"activate": true,
+				"importStarterContent": true
+			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "TSV 1913 Harreshausen",
+				"blogdescription": "Kameradschaft und Sport, bei uns ein Wort"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "twentig"
+			},
+			"options": {
+				"activate": true
+			}
+		}
+	]
 }
-    
