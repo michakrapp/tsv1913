@@ -20,6 +20,12 @@
 			"options": {
 				"activate": true
 			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "TSV 1913 Harreshausen"
+			}
 		}
 	]
 }
