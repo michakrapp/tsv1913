@@ -27,7 +27,8 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
-				"blogname": "TSV 1913 Harreshausen"
+				"blogname": "TSV 1913 Harreshausen",
+				"blogdescription": "Kameradschaft und Sport, bei uns ein Wort"
 			}
 		}
 	]
