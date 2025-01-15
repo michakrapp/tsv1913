@@ -2,7 +2,7 @@
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"meta": {
 		"title": "TSV 1913 Harreshausen",
-		"description": "Block theme for tsv1913.de",
+		"description": "Preview theme with WordPress playground",
 		"author": "MKWP",
 		"categories": ["Site"]
 	},
