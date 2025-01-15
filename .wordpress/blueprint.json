@@ -16,9 +16,9 @@
             "options": {
                 "blogname": "TSV 1913 Harreshausen",
                 "blogdescription": "Kameradschaft und Sport, bei uns ein Wort",
-                "show_on_front": "page",
+                "show_on_front": "page"
             }
-        },
+        }
     ]
 }
     
