@@ -1,5 +1,5 @@
 {
-    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"meta": {
 		"title": "TSV 1913 Harreshausen",
 		"description": "Block theme for tsv1913.de",
@@ -10,17 +10,16 @@
 		"php": "8.3",
 		"wp": "6.7"
 	},
-    "steps": [
-        {
-            "step": "installTheme",
-            "themeData": {
-                "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=mkwpde/tsv1913&branch=blueprint"
-            },
-            "options": {
-                "activate": true
-            }
-        }
-    ]
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://github-proxy.com/proxy/?repo=mkwpde/tsv1913&branch=blueprint"
+			},
+			"options": {
+				"activate": true
+			}
+		}
+	]
 }
-    
