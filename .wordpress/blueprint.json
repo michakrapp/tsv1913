@@ -12,6 +12,9 @@
 	},
 	"steps": [
 		{
+			"step": "resetData"
+		},
+		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
